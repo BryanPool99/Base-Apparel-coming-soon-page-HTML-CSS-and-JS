@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    
+  </head>
+  <body>
+    <main class="main">
+      <section class="logo">
+        <img src="images/logo.svg" alt="logo" />
+      </section>
+      <section class="bg"></section>
+      <article class="article">
+        <div class="article-tittle">
+          <p>
+            We're
+            <span>coming soon</span>
+          </p>
+        </div>
+        <div class="article-description">
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+        </div>
+        <div class="article-form">
+          <div class="input-email">
+            <input type="text" placeholder="Email Address" id="correo" required />
+          </div>
+          <div class="icon-error">
+            <img src="./images/icon-error.svg" alt="icon-error" />
+          </div>
+          <div class="button arrow">
+            <img src="./images/icon-arrow.svg" alt="icon-arrow" />
+          </div>
+          <div class="msg-error" id="msg">errror</div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/BryanPool99">Bryan Arredondo</a>.
+      </p>
+    </footer>
+    <script src="js/validarCorreo.js"></script>
+  </body>
+</html>
